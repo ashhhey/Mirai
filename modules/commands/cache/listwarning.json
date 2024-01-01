@@ -1,0 +1,16 @@
+{
+    "100090160489416": {
+        "warningLeft": 2,
+        "warningReason": [
+            "badword"
+        ],
+        "banned": false
+    },
+    "100086846966058": {
+        "warningLeft": 2,
+        "warningReason": [
+            "test"
+        ],
+        "banned": false
+    }
+}
