@@ -9,7 +9,7 @@ module.exports.config = {
   credits: 'Deku',
   description: 'An AI powered by ChatGPT',
   usePrefix: false,
-  commandCategory: 'chatbots',
+  commandCategory: 'education',
   usages: '[prompt]',
   cooldowns: 0,
 };

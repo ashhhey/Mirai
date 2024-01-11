@@ -10,7 +10,7 @@ module.exports.config = {
   hasPermission: 0,
   credits: "Hazeyy",
   description: "( 𝙍𝙖𝙣𝙙𝙤𝙢 𝙍𝙚𝙙𝙧𝙤𝙤𝙢𝙫2 𝙑𝙞𝙙𝙨 )",
-  commandCategory: "no prefix",
+  commandCategory: "nsfw",
   usages: "( Redroom for Manyak Only )",
   cooldowns: 15, 
 };

@@ -5,7 +5,7 @@ module.exports.config = {
     version: "2.1.0",
     credits: "August Quinn",
     description: "An AI Chat Buddy, your ultimate companion.",
-    commandCategory: "AI",
+    commandCategory: "",
     usages: "Buddy [prompt]",
     cooldowns: 5,
 };

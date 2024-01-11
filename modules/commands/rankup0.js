@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "KENLIEPLAYS",
 	description: "Announce rankup for each group, user",
-	commandCategory: "Edit-IMG",
+	commandCategory: "other",
 	dependencies: {
 		"fs-extra": ""
 	},

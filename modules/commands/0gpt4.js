@@ -6,7 +6,7 @@ module.exports.config = {
     hasPermission: 0,
     credits: "SiAM | @Siam.The.Fox",
     description: "",
-    commandCategory: "fun",
+    commandCategory: "education",
     usages: " ", // Modify it as needed
     cooldowns: 5,
 };

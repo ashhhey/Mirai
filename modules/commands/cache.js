@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "NTKhang",
 	description: "Delete file or folder in cache folder",
-	commandCategory: "Admin-bot system",
+	commandCategory: "admin",
 	usages: "\ncache start <text>\ncache ext <text>\ncache <text>\ncache [blank]\ncache help\nNOTE: <text> is the character you enter as you like",
 	cooldowns: 5
 };

@@ -7,7 +7,7 @@ module.exports.config = {
   hasPermission: 0,
   credits: "Hazeyy",
   description: "( 𝙍𝙚𝙢𝙤𝙫𝙚 𝘽𝙖𝙘𝙠𝙜𝙧𝙤𝙪𝙣𝙙 𝙋𝙝𝙤𝙩𝙤 )",
-  commandCategory: "no prefix",
+  commandCategory: "utility",
   usages: "( Remove background in your photo )",
   cooldown: 3,
 };

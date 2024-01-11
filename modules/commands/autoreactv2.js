@@ -5,7 +5,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "John Lester", 
   description: "No Prefix",
-  commandCategory: "no prefix",
+  commandCategory: "other",
     cooldowns: 5, 
 };
 

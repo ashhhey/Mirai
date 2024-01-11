@@ -7,7 +7,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "shiki",
   description: "Fb Vid Downloader",
-  commandCategory: "other",
+  commandCategory: "utility",
   usages: "fb video link",
   cooldowns: 2,
 };

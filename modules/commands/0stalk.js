@@ -6,7 +6,7 @@ module.exports.config = {
     credits: `${cred}`,
     description: "get info using uid/mention/reply to a message",
     usages: "[reply/uid/@mention/url]",
-    commandCategory: "info",
+    commandCategory: "utility",
     cooldowns: 0,
 };
 

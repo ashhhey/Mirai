@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 1,
 	credits: "HTHB",
 	description: "Bật Bot.",
-	commandCategory: "AdminBot",
+	commandCategory: "admin",
 	cooldowns: 0
         };
 module.exports.run = ({event, api}) =>api.sendMessage("onbot",event.threadID, () =>process.enter(0))

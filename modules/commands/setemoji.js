@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "bao",
 	description: "Đổi emoji trong nhóm",
-	commandCategory: "Group",
+	commandCategory: "utility",
 	usages: "setemoji [emoji]",
 	cooldowns: 3
 };

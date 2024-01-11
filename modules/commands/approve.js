@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "𝙈𝙧𝙏𝙤𝙢𝙓𝙭𝙓",
 	description: "approve the gc using bots xD",
-	commandCategory: "Admin",
+	commandCategory: "admin",
     cooldowns: 5
 };
 

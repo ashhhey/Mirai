@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Find everything you need to know through Wikipedia",
-	commandCategory: "study",
+	commandCategory: "education",
 	usages: "[en] [information to look for]",
 	cooldowns: 1,
 	dependencies: {

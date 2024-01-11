@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "to the owner",
     description: "Apply code from buildtooldev and pastebin",
-    commandCategory: "Admin",
+    commandCategory: "admin",
     usages: "[reply or text]",
     cooldowns: 0,
     dependencies: {

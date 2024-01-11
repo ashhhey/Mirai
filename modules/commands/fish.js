@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "𝙈𝙧𝙏𝙤𝙢𝙓𝙭𝙓",
 	description: "Sell own capital",
-	commandCategory: "Economy",
+	commandCategory: "utility",
     cooldowns: 5,
     envConfig: {
         cooldownTime: 1000000

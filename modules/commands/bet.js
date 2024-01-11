@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "𝙈𝙧𝙏𝙤𝙢𝙓𝙭𝙓",
 	description: "coin trowing",
-	commandCategory: "game-sp",
+	commandCategory: "utility",
 	usages: `Missing input\n\nHow to use?\n${global.config.PREFIX}bet <money>\n\nExample:\n${global.config.PREFIX}bet 50\n`,
 	cooldowns: 5,
 };

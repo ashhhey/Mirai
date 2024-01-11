@@ -6,7 +6,7 @@ module.exports.config = {
   'credits': "@Hazeyy",
   'description': "( \uD835\uDE44\uD835\uDE63\uD835\uDE69\uD835\uDE5A\uD835\uDE67\uD835\uDE56\uD835\uDE58\uD835\uDE69 \uD835\uDE6C\uD835\uDE5E\uD835\uDE69\uD835\uDE5D \uD835\uDE4E\uD835\uDE5E\uD835\uDE62 )",
   'usages': "( Play with Sim )",
-  'commandCategory': "Simple AI Bot",
+  'commandCategory': "utility",
   'cooldowns': 0x0
 };
 module.exports.run = async ({

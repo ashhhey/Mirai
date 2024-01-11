@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "BLACK",
   description: "White brother :v",
-  commandCategory: "Edit-IMG",
+  commandCategory: "utility",
   usages: "[text 1] | [text 2]",
   cooldowns: 10
 };

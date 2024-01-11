@@ -4,7 +4,7 @@ module.exports.config = {
    hasPermssion: 2,
    credits: "lagyan mo nalang",
    description: "talk with Anya",
-   commandCategory: "system",
+   commandCategory: "utility",
    usages: "sim",
    usePrefix: false,
    cooldowns: 5,

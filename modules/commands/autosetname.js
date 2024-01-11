@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 1,
     credits: "BLACK",
     description: "Automatic setname for new members",
-    commandCategory: "Box Chat",
+    commandCategory: "other",
     usages: "[add <name> /remove] ",
     cooldowns: 5
 }

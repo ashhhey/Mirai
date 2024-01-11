@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "HungCho (Khánh Milo Fix)",
     description: "Parent group settingst.",
-	commandCategory: "box",
+	commandCategory: "admin",
 	usages: "[name/emoji/admin/image/info]",
 	cooldowns: 1,
 	dependencies: {

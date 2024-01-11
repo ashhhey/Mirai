@@ -5,7 +5,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "P-SeverTeam", 
     description: "",
-    commandCategory: "Economy",
+    commandCategory: "utility",
     cooldowns: 5,
     envConfig: {
         cooldownTime: 5000

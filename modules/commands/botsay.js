@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "John Lester",
 	description: "Bot Saying",
-	commandCategory: "ai",
+	commandCategory: "utility",
 	usages: "[text/message/chat]",
 	cooldowns: 5
 };

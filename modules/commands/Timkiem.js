@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "PSTeam",
     description: "Tìm kiếm kết quả trên google",
-    commandCategory: "info",
+    commandCategory: "utility",
     usages: "search [Text]",
     cooldowns: 5,
     dependencies: {

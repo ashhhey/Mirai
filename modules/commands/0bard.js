@@ -6,7 +6,7 @@ module.exports.config = {
   hasPermission: 0,
   credits: "Ralph",
   description: "Get answer from bard",
-  commandCategory: "research",
+  commandCategory: "education",
   usages: "ai [query/prompt]",
   cooldowns: 0,
 };

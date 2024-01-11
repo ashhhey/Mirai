@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermission: 0,
   credits: "John Lester",
   description: "Bot React",
-  commandCategory: "No Prefix",
+  commandCategory: "other",
   cooldowns: 0,
 };
 const fs = require("fs");

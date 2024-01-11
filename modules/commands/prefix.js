@@ -1,25 +1,32 @@
 const fs = require("fs");
+
 module.exports.config = {
   name: "prefix",
-    version: "1.0.1",
+  version: "1.0.1",
   hasPermssion: 0,
-  credits: "VanHung - Fixed by LTD", 
-  description: "hihihihi",
-  commandCategory: "no prefix",
-  usages: "fuck",
-    cooldowns: 5, 
+  credits: "Blue",
+  description: "no prefix",
+  commandCategory: "utility",
+  usePrefix: false,
+  usages: "...",
+  cooldowns: 1,
 };
 
-module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
+module.exports.handleEvent = function ({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
-  if (event.body.indexOf("prefix")==0 || event.body.indexOf("Prefix")==0 || event.body.indexOf("PREFIX")==0 ||  event.body.indexOf("prefixx")==0) {
+  if (
+    event.body.indexOf("prefix") == 0 ||
+    event.body.indexOf("Prefix") == 0 ||
+    event.body.indexOf("Ano prefix") == 0 ||
+    event.body.indexOf("ano prefix") == 0
+  ) {
+    const moment = require("moment-timezone");
+    var gio = moment.tz("Asia/Manila").format("HH:mm:ss || D/MM/YYYY");
     var msg = {
-        body: "𝗠𝘆 𝗽𝗿𝗲𝗳𝗶𝘅 𝗶𝘀 𝗼𝗻 𝘁𝗵𝗲 𝗴𝗶𝗳🤖",
-        attachment: fs.createReadStream(__dirname + `/noprefix/prefix.gif`)
-      }
-      api.sendMessage(msg, threadID, messageID);
-    }
+      body: `╭┈ ❒ MY PREFIX\n╰┈➤ ${global.config.PREFIX}\n╭┈ ❒ Type this for educ.\n╰┈➤ [ ${global.config.PREFIX}ai ] - [ ${global.config.PREFIX}ashley ]`,
+    };
+    api.sendMessage(msg, threadID, messageID);
   }
-  module.exports.run = function({ api, event, client, __GLOBAL }) {
+};
 
-  }
+module.exports.run = function ({ api, event, client, __GLOBAL }) {};

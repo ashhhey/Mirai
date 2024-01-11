@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Siêu Đáng Yêu",
 	description: "",
-	commandCategory: "group",
+	commandCategory: "other",
 	cooldowns: 5,
 	dependencies: {
 		"fs-extra": "",

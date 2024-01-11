@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "D-Jukie",
     description: "AFK!",
-    commandCategory: "fun",
+    commandCategory: "utility",
     usages: "[reason]",
     cooldowns: 5
 };

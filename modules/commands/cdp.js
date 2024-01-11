@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "John Arida/Change Api by Siegfried Sama",
   description: "couple dp",
-  commandCategory: "Other",
+  commandCategory: "other",
     cooldowns: 2,
 };
 module.exports.run = async function({ api, event, args }) {

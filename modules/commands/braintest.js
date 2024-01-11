@@ -7,7 +7,7 @@ module.exports.config = {
   credits: "RICKCIEL",
   usePrefix: true,
   description: "Answer using =answer a, b, c, or d.",
-  commandCategory: "Fun",
+  commandCategory: "utility",
   cooldowns: 5,
 };
 

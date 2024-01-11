@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Hinata",
   description: "bbm memes",
-  commandCategory: "memes",
+  commandCategory: "edit-img",
   usages: "text 1 | text 2",
   cooldowns: 1
 };

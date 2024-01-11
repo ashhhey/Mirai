@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermision: 0,
     credit: "Joshua Sy",
     description: "get info of element",
-    commandCategory: "study",
+    commandCategory: "utility",
     cooldowns: 0,
 };
 

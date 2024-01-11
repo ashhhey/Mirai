@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "ntkhang",
     description: "",
-    commandCategory: "image",
+    commandCategory: "utility",
     usages: "{p}{n} <character code or character name> | <background letters> | <signature> | <English color name or background color code (hex color)>\n{p}{n} ",
     cooldowns: 0
   };

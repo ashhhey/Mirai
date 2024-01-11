@@ -1,9 +1,9 @@
 const chalk = require('chalk');
 var cron = require("node-cron");
 const { exec } = require("child_process");
-const timerestart = 120
+const timerestart = 999999999999
 var cron = require('node-cron');
-cron.schedule('0 */60 * * * *', () => {
+cron.schedule('0 */120 * * * *', () => {
   process.exit(1)
 });
 exec("rm -rf script/commands/data && mkdir -p script/commands/data && rm -rf script/commands/tad/* ", (error, stdout, stderr) => {

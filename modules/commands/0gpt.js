@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "KENLIEPLAYS",
     description: "GPTGO by KENLIEPLAYS",
-    commandCategory: "ai",
+    commandCategory: "education",
     usages: "[ask]",
     cooldowns: 2,
 };

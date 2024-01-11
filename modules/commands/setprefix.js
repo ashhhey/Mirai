@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "Mirai",
 	description: "Reset group prefix",
-	commandCategory: "Group",
+	commandCategory: "admin",
 	usages: "[prefix/reset]",
 	cooldowns: 5
 };

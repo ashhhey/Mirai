@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0, 
 	credits: "Mirai Team",
 	description: "Manage bot admin",
-	commandCategory: "config",
+	commandCategory: "admin",
 	usages: "[list/add/remove] [userID]",
     cooldowns: 5,
     dependencies: {

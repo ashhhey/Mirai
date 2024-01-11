@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Huy",
 	description: "Bán vốn tự có",
-	commandCategory: "Make money",
+	commandCategory: "utility",
     cooldowns: 5,
     envConfig: {
         cooldownTime: 1000000

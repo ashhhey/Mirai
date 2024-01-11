@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai fix by PSTeam",
 	description: "View Member Rankings",
-	commandCategory: "Group",
+	commandCategory: "other",
 	usages: " [user] or [tag]",
 	cooldowns: 5,
 	dependencies: {

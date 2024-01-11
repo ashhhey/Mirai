@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "BLACK",
 	description: "Random ảnh anime",
-	commandCategory: "Random-IMG",
+	commandCategory: "utility",
 	usages: "imganime",
 	cooldowns: 5
 };

@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "NTKhang, ManhG Fix Get",
 	description: "Report bot's error to admin or comment",
-	commandCategory: "group",
+	commandCategory: "utility",
 	usages: "[Error encountered or comments]",
 	cooldowns: 5
 }, module.exports.handleReply = async function({

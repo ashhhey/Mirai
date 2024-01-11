@@ -5,7 +5,7 @@ module.exports.config = {
 	credits: "Leiam Nash",
 	description: "brainly",
   usages: `Search cannot be left blank\n\nHow to use?\n${global.config.PREFIX}brainly <search>\n\nExample:\n${global.config.PREFIX}brainly continental drift\n`,
-	commandCategory: "leiamStudy",
+	commandCategory: "education",
 	cooldowns: 5
 };
 

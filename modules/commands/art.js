@@ -5,7 +5,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "SaikiDesu", // learn to eat, learn to speak, don't learn the habit of replacing credits
     description: "this command adds ai-generated visual effects to images",
-    commandCategory: "ai",
+    commandCategory: "utility",
     usages: "[reply to image/sticker or via link]",
     cooldowns: 5
 };

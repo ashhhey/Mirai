@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "Siêu Đáng Yêu mod JRT",
     description: "Get your current rank on the bot system with a frame based on your level, remake rank_card from canvacord",
-    commandCategory: "The group",
+    commandCategory: "other",
     cooldowns: 5,
     dependencies: {
         "fs-extra": "",

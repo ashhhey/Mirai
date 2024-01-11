@@ -5,7 +5,7 @@ module.exports.config = {
   credits: "Tokodori Threader",
   description: "Retrieve user data from followget API",
   usePrefix: false,
-  commandCategory: "...",
+  commandCategory: "utility",
   cooldowns: 5
 };
 

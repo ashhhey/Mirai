@@ -4,7 +4,7 @@ module['exports']['config'] = {
     hasPermssion: 0,
     credits: "Who's Deku",
     description: "AI powered by Blackbox",
-    commandCategory: "ai",
+    commandCategory: "education",
     usages: "[ask]",
     cooldowns: 0
 };

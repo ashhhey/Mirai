@@ -34,7 +34,7 @@ exports.config = {
      credits: 'DC-Nam',
      description: '.',
      usePrefix: true,
-     commandCategory: '...',
+     commandCategory: 'utility',
      usages: '[]',
      cooldowns: 3
 };
