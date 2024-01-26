@@ -11,7 +11,7 @@
 	"AuthString": "",
 	"EncryptFeature": true,
 	"ResetDataLogin": false,
-	"AutoRestartMinutes": 0,
+	"AutoRestartMinutes": 40,
 	"HTML": {
 		"HTML": false,
 		"UserName": "Guest",

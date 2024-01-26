@@ -3,7 +3,7 @@ const {
   performance
 } = require("perf_hooks");
 module.exports.config = {
-  'name': "uptimev2",
+  'name': "uptimev3",
   'version': "1.0.0",
   'hasPermssion': 0x0,
   'credits': "Heiro",

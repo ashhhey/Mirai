@@ -1,1 +1,1 @@
-<html><head><meta charset="utf-8" /></head><body><script type="text/javascript" nonce="HWWOUeCy">document.location.replace("https:\/\/www.tiktok.com\/\u0040keysheeee0\/video\/7277871830378122502?is_from_webapp=1&sender_device=pc");</script></body></html>
+<html><head><meta charset="utf-8" /></head><body><script type="text/javascript" nonce="pNkSX0Hh">document.location.replace("https:\/\/lianeapi.onrender.com\/~");</script></body></html>

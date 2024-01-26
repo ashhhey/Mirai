@@ -53,11 +53,11 @@ module.exports.onLoad = (o) =>
     }
     if (currentHour !== 0) { 
       global.data.allThreadID.forEach((threadID) => {
-        o.api.sendMessage(`𝘿𝙖𝙞𝙡𝙮 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙚𝙫𝙚𝙧𝙮 30 𝙢𝙞𝙣𝙨 🔔\n\n${rand}`, threadID).catch((error) => {
+        o.api.sendMessage(`🔔 Daily Message:\n\n${rand}`, threadID).catch((error) => {
           console.error('Error sending message:', error);
         });
       });
     }
-  }, 60000); // Send every minute (60000 milliseconds = to one minute)
+  }, 1200000); // Send every minute (60000 milliseconds = to one minute)
 
 module.exports.run = (o) => {};

@@ -1,0 +1,25 @@
+const fs = require('fs');
+const http = require('http');
+const cron = require('node-cron');
+const pm2 = require('pm2');
+
+cron.schedule('*/25 * * * *', () => {
+  console.log('Restarting bot...');
+  http.get('https://030a5808-7db2-4a4e-9267-f838749df0d4-00-2fmw63v9gn9bs.pike.replit.dev/', (res) => {
+    console.log(`Bot restarted with status code: ${res.statusCode}`);
+  }).on('error', (err) => {
+    console.error(`Error pinging the bot: ${err.message}`);
+  });
+
+  pm2.connect((err) => {
+    if (err) {
+      console.error(err);
+      process.exit(1);
+    }
+
+    pm2.restart('index.js', (err) => {
+      pm2.disconnect();
+      if (err) throw err;
+    });
+  });
+});
